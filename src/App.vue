@@ -122,11 +122,12 @@
 		padding: 1.5em;
 	}
 	ul {
+		max-width: 600px;
 		list-style: none;
 		border: 1px solid gray;
 		padding: 0.5em;
 		border-radius: 10px;
-		width: 50%;
+		min-width: 50%;
 		margin: auto;
 	}
 	h1 {
@@ -152,8 +153,9 @@
 		margin-bottom: 2rem;
 	}
 	form {
+		max-width: 500px;
 		display: flex;
-
+		flex-direction: column;
 		margin: 0 auto 2rem auto;
 	}
 	.current {
@@ -185,8 +187,15 @@
 		font-weight: 700;
 		text-align: center;
 	}
+
+	.weight-prev-info {
+		max-width: 600px;
+		margin: auto;
+	}
 	.canvas-area {
 		margin-bottom: 2em;
+		max-width: 600px;
+		margin: auto;
 	}
 
 	form input[type="number"] {
@@ -197,6 +206,7 @@
 		flex: 1 1 0%;
 		padding: 1rem 1.5rem;
 		font-size: 1.25rem;
+		text-align: center;
 	}
 
 	button[type="submit"] {
