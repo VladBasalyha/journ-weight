@@ -120,6 +120,7 @@
 <style scoped>
 	main {
 		padding: 1.5em;
+		background-color: #9a9697;
 	}
 	ul {
 		list-style: none;
